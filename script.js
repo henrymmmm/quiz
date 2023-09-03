@@ -74,10 +74,10 @@ document.addEventListener('DOMContentLoaded', function () {
             const selectedGender = document.querySelector('input[name="gender"]:checked').value;
             
             if (selectedGender === 'male') {
-                genderImage.src = '/img/male.png';
+                genderImage.src = './img/male.png';
                 genderImage.alt = 'Male';
             } else if (selectedGender === 'female') {
-                genderImage.src = '/img/female.png';
+                genderImage.src = './img/female.png';
                 genderImage.alt = 'Female';
             }
         });
